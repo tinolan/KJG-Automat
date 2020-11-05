@@ -2,7 +2,10 @@ package com.example.kjg_automat;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 /**
  * Skeleton of an Android Things activity.
@@ -21,11 +24,22 @@ import android.os.Bundle;
  * <p>
  * You can find additional examples on GitHub: https://github.com/androidthings
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        final Button button = (Button) findViewById(R.id.button_test);
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                button.setText("Button gedrückt");
+            }
+
+            });
+
     }
 }
