@@ -3,6 +3,8 @@
     package="com.example.kjg_automat">
 
     <uses-permission android:name="com.google.android.things.permission.USE_PERIPHERAL_IO" />
+    <uses-permission android:name="com.google.android.things.permission.MANAGE_GNSS_DRIVERS" />
+
 
     <application android:label="@string/app_name">
         <uses-library android:name="com.google.android.things" />
