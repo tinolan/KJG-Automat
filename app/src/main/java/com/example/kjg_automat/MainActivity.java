@@ -15,13 +15,16 @@ import com.sumup.merchant.reader.models.TransactionInfo;
 import com.google.android.things.userdriver.location.GnssDriver;
 import com.google.android.things.userdriver.UserDriverManager;
 
+import android.bluetooth.BluetoothClass;
+import com.google.android.things.bluetooth.BluetoothClassFactory;
+import com.google.android.things.bluetooth.BluetoothConfigManager;
+
 import java.math.BigDecimal;
 import java.util.UUID;
 
 
 public class MainActivity extends Activity {
 
-    private static final String TAG = "Automat-Aktivität";
     private static final int REQUEST_CODE_LOGIN = 1;
     private static final int REQUEST_CODE_PAYMENT = 2;
     private static final int REQUEST_CODE_PAYMENT_SETTINGS = 3;
@@ -46,7 +49,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                SumUpLogin automat_login = SumUpLogin.builder("7ca84f17-84a5-4140-8df6-6ebeed8540fc").build();
+                SumUpLogin automat_login = SumUpLogin.builder("155d4d1d-ca6c-4032-9020-2dec4ba1c8eb").build();
                 SumUpAPI.openLoginActivity(MainActivity.this, automat_login, REQUEST_CODE_LOGIN);
                 mResultCode.setText("Eingeloggt");
             }

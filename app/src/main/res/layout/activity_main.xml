@@ -12,118 +12,140 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.843" />
 
     <Button
         android:id="@+id/button_login"
-        android:layout_width="75dp"
-        android:layout_height="31dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="435dp"
+        android:layout_marginBottom="414dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.51" />
 
     <Button
         android:id="@+id/button_charge"
-        android:layout_width="66dp"
-        android:layout_height="24dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="435dp"
+        android:layout_marginBottom="343dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_payment_settings"
-        android:layout_width="66dp"
-        android:layout_height="21dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="432dp"
+        android:layout_marginBottom="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_charge"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_prepare_card_terminal"
-        android:layout_width="57dp"
-        android:layout_height="27dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="432dp"
+        android:layout_marginBottom="206dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_payment_settings"
-        app:layout_constraintVertical_bias="0.231" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_logout"
-        android:layout_width="64dp"
-        android:layout_height="28dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="432dp"
+        android:layout_marginBottom="134dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/result_msg"
-        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        app:layout_constraintBottom_toTopOf="@+id/result_msg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
-        app:layout_constraintStart_toEndOf="@+id/button_logout"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391" />
-
-    <TextView
-        android:id="@+id/result_msg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="415dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toEndOf="@+id/button_prepare_card_terminal"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tx_code"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/receipt_sent"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
-        app:layout_constraintStart_toEndOf="@+id/button_logout"
-        app:layout_constraintTop_toBottomOf="@+id/result_msg"
-        app:layout_constraintVertical_chainStyle="spread" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/receipt_sent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="291dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tx_code" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tx_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="353dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result_msg"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="622dp"
+        android:layout_marginTop="342dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="159dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
